@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test - eBEYONDS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header section -->
+    <header>
+        <div class="logo-nav-container">
+            <img src="./images/logo.png" alt="Logo">
+            <nav>
+                <ul class="main-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#our-screens">Our Screens</a></li>
+                    <li><a href="#schedule">Schedule</a></li>
+                    <li><a href="#movie-library">Movie Library</a></li>
+                    <li><a href="#contact-us">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="burger-menu" id="burger-menu">
+                <img src="./images/burger-menu.png" alt="Burger Menu">
+            </div>
+        </div>
+    </header>
+    <div class="menu-popup" id="menu-popup">
+        <nav>
+            <ul class="popup-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#our-screens">Our Screens</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#movie-library">Movie Library</a></li>
+                <li><a href="#contact-us">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+   
+    <section id="slideshow">
+        <div class="slideshow-container">
+            <div class="slide">
+                <img src="images/banner1.png" alt="Slide 1">
+            </div>
+            <div class="slide">
+                <img src="images/banner2.jpg" alt="Slide 2">
+            </div>
+            <div class="slide">
+                <img src="images/banner3.jpg" alt="Slide 3">
+            </div>
+        </div>
+    </section>
+
+    <section id="intro" class="intro">
+        <div>
+            <h1>MOVIE LIBRARY</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</br> Odio in delectus modi, iure quis dignissimos at facere nihil a.</br> Quis nihil soluta cupiditate fugiat voluptatibus atque nemo quidem quam ullam?</p>
+        </div>        
+    </section>
+    <section id="movie-library">
+        <div class="movie-library-header">
+            <h2>Movie Library</h2>
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search...">
+                <button id="searchButton"><img src="./images/search icon.png" alt="Search"></button>
+            </div>
+        </div>
+        <div class="movies-container" id="moviesContainer">
+            <div class="search-results" id="searchResults">
+                <!-- Search results will be displayed here -->
+            </div>
+            <div class="movie">
+                <img src="./images/img1.png" alt="Movie 1">
+                <div><h3>Batman Returns</h3>
+                    <p>Lorem ipsum dolor sit amet, 
+                        consetetur sadipscing elitr, sed diam 
+                        nonumy eirmod tempor invidunt ut…</p></div>
+            </div>
+            <div class="movie">
+                <img src="./images/img2.png" alt="Movie 2">
+                <div><h3>Wild Wild West</h3>
+                    <p>Lorem ipsum dolor sit amet, 
+                        consetetur sadipscing elitr, sed diam 
+                        nonumy eirmod tempor invidunt ut…</p></div>
+            </div>
+            <div class="movie">
+                <img src="./images/img3.png" alt="Movie 3">
+                <div><h3>The Amazing Spiderman</h3>
+                    <p>Lorem ipsum dolor sit amet, 
+                        consetetur sadipscing elitr, sed diam 
+                        nonumy eirmod tempor invidunt ut…</p></div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <!-- Contact and location section -->
+    <section id="contact-us">
+        <div>
+            <h2>Contact Us</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="first-name">First Name:</label>
+                    <input type="text" id="first-name" name="first-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="last-name">Last Name:</label>
+                    <input type="text" id="last-name" name="last-name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="telephone">Telephone:</label>
+                    <input type="tel" id="telephone" name="telephone">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" id="agreement" name="agreement" required>
+                    <label for="agreement">I agree to the terms and conditions</label>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+            <p id="response"></p>
+        </div>
+        <div class="location">
+            <h2>Our Location</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.3807403172596!2d79.940426!3d6.8448775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae25069caa2f53b%3A0xe7eae3a8b1f1214d!2seBEYONDS%20eBusiness%20%26%20Digital%20Solutions!5e0!3m2!1sen!2slk!4v1711360278829!5m2!1sen!2slk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+
+    <!-- Footer section -->
+    <footer id="footer">
+        <div> 
+            <p>&copy; IT Group</br>
+                C. Salvador de Madariaga, 1</br>
+                28027 Madrid</br>
+                Spain  </p>
+        </div>
+        <div> 
+            <p>Follows us on</p>
+            <img src="./images/icon1.png" alt="icon1">
+            <img src="./images/icon2.png" alt="icon1">
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
